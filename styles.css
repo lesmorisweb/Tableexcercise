@@ -1,0 +1,39 @@
+.paperContainer{
+   
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+}
+.adminNameContainer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px black solid;
+}
+.header-table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.header-field{
+    width: calc(100% / 3);
+    border: 3px black solid;
+    background-color: yellow;
+    text-transform: uppercase;
+
+}
+.row-table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row-field{
+    width: calc(100% / 3);
+    border: black solid 1px;
+}
